@@ -1,0 +1,27 @@
+
+
+.qr_container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    padding-top: 20px;
+
+}
+
+.qr_background{
+    background-color: white;
+    border-radius: 8px;
+    width: auto;
+
+    padding: 15px 15px;
+}
+
+.qr_hash{
+    width:50vw;
+    height:auto;
+}
+
+.link_hash{
+    user-select: none;
+}

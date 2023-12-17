@@ -1,0 +1,46 @@
+
+
+.attachinput_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.attachinput_attachments{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.attachinput_image{
+    width: 60px;
+    height: 60px;
+
+    margin-right: 2.5px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.attachinput_image_big{
+    width: 85px;
+    height: 85px;
+
+    margin-right: 2.5px;
+
+    object-fit: cover;
+    object-position: center;
+
+    cursor: pointer;
+    border-radius: 8px;
+}

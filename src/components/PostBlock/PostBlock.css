@@ -1,0 +1,29 @@
+
+.tipsContainer{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.tipChild{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.tipBox{
+    height: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    background-color: var(--vkui--color_background_tertiary);
+    border-radius: 8px;
+
+    padding: 3px 6px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}

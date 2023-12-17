@@ -1,0 +1,25 @@
+.fixed_bottom_button{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 24px;
+}
+
+/* .vkuiEpic .vkuiFixedLayout--vertical-bottom{
+    padding-bottom: 12px;
+} */
+
+.subtitleSelect{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.moreButton_container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    margin: 10px 0;
+}

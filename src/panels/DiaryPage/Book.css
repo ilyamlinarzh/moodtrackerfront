@@ -1,0 +1,7 @@
+.moreButton_container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    margin: 10px 0;
+}
